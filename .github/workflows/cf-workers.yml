@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup serverless
-        uses: Teakowa/setup-serverless@v2
+        uses: Teakowa/setup-serverless@v3
         with:
           provider: cloudflare-workers
         env:
